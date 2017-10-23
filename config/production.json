@@ -6,11 +6,11 @@
     "secure": true,
     "key": "config/sslcerts/key.pem",
     "cert": "config/sslcerts/cert.pem",
-    "password": null
+    "password": "nimkraft17"
   },
   "rooms": {
     "/* maxClients */": "/* maximum number of clients per room. 0 = no limit */",
-    "maxClients": 0
+    "maxClients": 3
   },
   "stunservers": [
     {
@@ -19,8 +19,8 @@
   ],
   "turnservers": [
     {
-      "urls": ["turn:your.turn.servers.here"],
-      "secret": "turnserversharedsecret",
+      "urls": ["numb.viagenie.ca"],
+      "secret": "degeta10",
       "expiry": 86400
     }
   ]
