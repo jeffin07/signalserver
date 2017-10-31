@@ -6,7 +6,7 @@ var yetify = require('yetify'),
     port=8888,
    // port = parseInt(8888 || config.server.port, 8888),
     server_handler = function (req, res) {
-        res.writeHead(404);
+        res.writeHead(200);
         res.end();
     },
     server = null;
